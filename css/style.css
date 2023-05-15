@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: serif;
+    font-size: 14px;
+    line-height: 24px;
+    height: 1800px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.green{
+    width: 700px;
+    height: 400px;
+    background: green;
+    position: relative;
+}
+.red{
+    width: 150px;
+    height: 150px;
+    background: red;
+    position: absolute;
+    border-radius: 50%;
+    top: 25%;
+    left: 35%;
+}
+.fb{
+    width: 150px;
+    position: fixed;
+    top: 16%;
+    right: -105px;
+    transition: 1s;
+}
+.link{
+    width: 150px;
+    position: fixed;
+    top: 200px;
+    right: -105px;
+    transition: 1s;
+}
+.pin{
+    width: 150px;
+    position: fixed;
+    top: 250px;
+    right: -105px;
+    transition: 1s;
+}
+.twt{
+    width: 150px;
+    position: fixed;
+    top: 300px;
+    right: -105px;
+    transition: 1s;
+}
+.wht{
+    width: 150px;
+    position: fixed;
+    top: 350px;
+    right: -105px;
+    transition: 1s;
+}
+.fb:hover, .link:hover, .pin:hover, .twt:hover, .wht:hover{
+    right: 4px;
+    cursor: pointer;
+}
+.social-icons{
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 100px 0px 0px;
+}
+.social-icons li{
+    list-style: none;
+    display: inline-block;
+}
+.social-icons li a{
+    display: block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 20px;
+    text-align: center;
+    background: rgb(204, 0, 255);
+    color: white;
+    margin: 0px 15px;
+    border-radius: 100%;
+    transition: 1s;
+}
+.social-icons li a:hover{
+    background: rgb(43, 22, 119);
+    color: white;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
